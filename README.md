@@ -114,7 +114,7 @@ Um dos integrantes do grupo deu a ideia de colocar na página de post do Blog:
 
 Sobre a página do usuáro:<br>
 ° A página poderia ter um local para colocar uma foto de perfil.<br>
-° Poderianhaver uma área para ver os próprios posts.<br>
+° Poderia haver uma área para ver os próprios posts.<br>
 ° Uma área de tarefas para cada funcionário<br>
 ° Ter um campo de mensagens para caso o usuário queira conversar com outro usuário.
 
