@@ -59,37 +59,37 @@
 ## Pontos a serem melhorados no BackEnd:
 
 - Home/index.ejs:
-  ° Deveria haver comentários explicando o que cada tag faz.
+  ° Deveria haver comentários explicando o que cada tag faz.<br>
   ° Quando entrar na página Home aparece uma mensagem: "Blog da turma I2HNA - SESI Nova Odessa", isso poderia ser alterado para: "Blog do Marcio Denadai - SESI Nova Odessa" pois o dono é ele.
 
 - Cadastro/cadastro.ejs:
-  ° Colocar um limite de caracteres na senha para não ficar extenso.
-  ° Ter mascara nos inputs: Celular, CPF e RG.
+  ° Colocar um limite de caracteres na senha para não ficar extenso.<br>
+  ° Ter mascara nos inputs: Celular, CPF e RG.<br>
   ° Falta comentários explicando o que cada tag faz.
 
 - Login/login.ejs:
-  ° Colocar um certo limite na senha para não ficar extensa.
-  ° Ter um certo limite de caracteres no input Nome, pois assim não ira prejudicar o dashboard.
+  ° Colocar um certo limite na senha para não ficar extensa.<br>
+  ° Ter um certo limite de caracteres no input Nome, pois assim não ira prejudicar o dashboard.<br>
   ° Tags sem comentários explicando o que cada uma faz.
 
 - Dashboard/dashboard.ejs:
   ° Tags sem comentários explicando o que cada uma faz.
 
 - Erro 404/fail.ejs:
-  ° Novamente falta comentários explicando as tags.
+  ° Novamente falta comentários explicando as tags.<br>
   ° Existem duas páginas que aparentam ser destinadas ao erro 404, que são: "fail.ejs" e a "404.ejs", porém a que está sendo usada é a fail, isso pode ser corrigido para não causar conflitos.
 
 - Páginas dentro da pasta views/partials:
-  ° Novamente falta comentários sobre as tags.
-  ° Dentro do arquivo "head.ejs" na linha 9 e 10, pode ser retirada.
+  ° Novamente falta comentários sobre as tags.<br>
+  ° Dentro do arquivo "head.ejs" na linha 9 e 10, pode ser retirada.<br>
   ° Dentro do arquivo "usertable.ejs" as linhas 14, 15 e 26 tambem podem ser retiradas.
 
 Dentro do código existem muitos arquivos que existem sem propósito, seria bom removelos, sendo eles:
-° Pasta "Exercicios".
-° Pasta/Arquivos "scripts/validaCadastro.ejs" eles estão dentro da pasta static.
-° O arquivo "404.ejs", se encontra dentro da pasta views/pages.
-° O arquivo "login2.ejs", se encontra dentro da pasta views/pages.
-° Arquivo "helloworld.ejs" se encontra dentro da raiz do projeto.
+° Pasta "Exercicios".<br>
+° Pasta/Arquivos "scripts/validaCadastro.ejs" eles estão dentro da pasta static.<br>
+° O arquivo "404.ejs", se encontra dentro da pasta views/pages.<br>
+° O arquivo "login2.ejs", se encontra dentro da pasta views/pages.<br>
+° Arquivo "helloworld.ejs" se encontra dentro da raiz do projeto.<br>
 ° O arquivo "rotas.ejs", ele se encontra dentro da raiz do projeto.
 
 Algumas alterações no arquivo "app.js":
@@ -97,26 +97,26 @@ Algumas alterações no arquivo "app.js":
 
 - 11 a 16
 - 76 a 78 e 80
-- 89 a 91
-  ° Decidimos manter algumas linhas por explicarem o que cada tag faz ou mostrando como fazer o código, um exemplo é a linha 119.
+- 89 a 91<br>
+° Decidimos manter algumas linhas por explicarem o que cada tag faz ou mostrando como fazer o código, um exemplo é a linha 119.
 
 Outras melhorias são para melhorar o desempenho do site:
-° Quando efetuado o login poderia haver uma opção para criar uma empresa ou entrar em uma, assim limitando quem pode ser Administrador e que será usuário padrão, assim somente os ADMS podem ver as senhas dos integrantes.
-° Ao logar, o nome da pessoa acaba virando um botão no canto superior direito, isso poderia ser retirado caso não tenha uma utilidade.
+° Quando efetuado o login poderia haver uma opção para criar uma empresa ou entrar em uma, assim limitando quem pode ser Administrador e que será usuário padrão, assim somente os ADMS podem ver as senhas dos integrantes.<br>
+° Ao logar, o nome da pessoa acaba virando um botão no canto superior direito, isso poderia ser retirado caso não tenha uma utilidade.<br>
 ° Outra alteração interessante seria a criação de uma página de post, já que o é intuito do Blog, onde os usuários poderiam fazer post, postar imagens e afins, enquanto os ADMS monitoram e permitem o que pode ser postado e o que mão pode.
 
 Sobre a página de post:
 Um dos integrantes do grupo deu a ideia de colocar na página de post do Blog:
-° Um botão de fixar imagem.
-° Mostrar os usuários presentes.
-° Poder comentar nos posta.
-° Ter uma função para os ADMS terem controle sobre os posts.
+° Um botão de fixar imagem. <br>
+° Mostrar os usuários presentes. <br>
+° Poder comentar nos posta. <br>
+° Ter uma função para os ADMS terem controle sobre os posts.<br>
 ° Ter uma verificação de linguagem inapropriada, onde pderia ser usado uma IA para verificar.
 
 Sobre a página do usuáro:
-° A página poderia ter um local para colocar uma foto de perfil.
-° Poderianhaver uma área para ver os próprios posts.
-° Uma área de tarefas para cada funcionário
+° A página poderia ter um local para colocar uma foto de perfil.<br>
+° Poderianhaver uma área para ver os próprios posts.<br>
+° Uma área de tarefas para cada funcionário<br>
 ° Ter um campo de mensagens para caso o usuário queira conversar com outro usuário.
 
 ## Ambiente de execução e teste
